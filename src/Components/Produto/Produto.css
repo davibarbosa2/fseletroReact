@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+figure>img{
+    width: 160px;
+    height: 185px;
+}
+
+figcaption{
+    position: relative;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:0.973rem;
+    font-weight: bolder;
+    padding:0.3em;
+    width: 9.375em;
+    background-color: rgba(100, 100,100, 0.8);
+    top: -3.125em;
+    color: rgba(255, 255,245, 0.9);
+    visibility: hidden;
+}
+
+figcaption>p {
+    margin: 0;
+    padding: 0;
+}
+
+.preco-prod{
+    text-decoration: line-through;
+    font-size: 1rem;
+}
+
+.precofinal-prod{
+    font-size: 0.975rem;
+    color: yellowgreen;
+}
